@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-}
+/* End of file */
 
 body {
   font-family: Arial, sans-serif;
@@ -116,6 +116,22 @@ section h3 {
 .participant-email {
   word-break: break-word;
   opacity: 0.95;
+}
+
+.delete-icon {
+  font-size: 18px;
+  color: #c62828;
+  margin-left: auto;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 0.2s;
+  display: inline-flex;
+  align-items: center;
+}
+.delete-icon:hover {
+  background: #ffeaea;
+  color: #a31515;
+}
 }
 
 /* Empty state for participants */
